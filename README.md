@@ -27,10 +27,10 @@ Total Records: 364,000+
 Key Columns:
 
 Crowdfunding_Projects :
-    *ID	
-    *State	
-    *Name	
-    Country	
+    * ID	
+    * State	
+    * Name	
+    * Country	
     Creator_id	
     Location_id	
     Category_id	
