@@ -1,11 +1,11 @@
 # Kickstarter Crowdfunding Data Analysis Project
 
-🔹 Project Overview
+# Project Overview
 
 This project focuses on analyzing Kickstarter crowdfunding data to understand project success patterns, funding trends, and key factors influencing campaign performance. The dataset contains over 364,000 records including project categories, locations, funding amounts, and campaign status.
 
 
- 🔹 Objectives
+ # Objectives
 
 To analyze the overall performance of Kickstarter crowdfunding projects using key metrics such as total projects, total pledged amount, and total backers
 To evaluate the relationship between goal amount and pledged amount to understand funding efficiency
@@ -20,13 +20,13 @@ To build an interactive dashboard that allows users to filter data by state (suc
 
 
 
- 🔹 Dataset Information
+ # Dataset Information
 
 Source: Kickstarter Dataset
 Total Records: 364,000+
 Key Columns:
 
-Crowdfunding_Projects :
+**Crowdfunding_Projects** :
     ID	
     State	
     Name	
