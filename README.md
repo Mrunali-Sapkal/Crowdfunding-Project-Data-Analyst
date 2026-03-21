@@ -35,41 +35,41 @@ To build an interactive dashboard that allows users to filter data by state (suc
    * Location_id	
    * Category_id	
    * Created_at	
-    * Year	
-    * Month	
-    * Finanacial Month	
-    * Quarter	
-    * Financial_Quarter		
-    * Successful_at	
-* Goal	
+   * Year	
+   * Month	
+   * Finanacial Month	
+   * Quarter	
+   * Financial_Quarter		
+   * Successful_at	
+   * Goal	
    * Static_USD_Rate	
-    * Goal_Amount	
+   * Goal_Amount	
    * Goal_Range	
    * Pledged	
    * Pledged_Amount_USD	
-   * Currency	
-* Backers_count	
-    * No_of_days_for_Completion	
-    * Funding_Percentage
+   * Currency
+   * Backers_count	
+   * No_of_days_for_Completion	
+   * Funding_Percentage
 
 **Location** :
-    * Location_id	
+   * Location_id	
    * Display_Name	
    * Type	
-    * Location_Name	
+   * Location_Name	
    * Location_State	
    * Short_Name	
-    * Country
+   * Country
 
 **Creator**:
-    * Creator_id	
+   * Creator_id	
    * Creator_Name
 
 **Category**:
-    *Category_id	
-    *Category_Name	
-    *Parent_id	
-    *Position
+   * Category_id	
+   * Category_Name	
+   * Parent_id	
+   * Position
 
 			
 ## Data Cleaning & Preparation
@@ -126,7 +126,7 @@ Created several calculated columns to enhance analysis:
 
 The following KPIs were used to evaluate the performance of Kickstarter crowdfunding projects:
 
-**Overall KPIs :**
+* **Overall KPIs :**
 
 Total Number of Projects: 364.21K
 
@@ -138,7 +138,7 @@ Total Backers Count: 44.33 Million
 
 Average Number of Days for Completion: 22.45 Days
 
-**Analytical KPIs :**
+* **Analytical KPIs :**
 
 Projects by Category → Identifies most active and high-performing categories
 
