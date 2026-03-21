@@ -22,9 +22,9 @@ To build an interactive dashboard that allows users to filter data by state (suc
 
  ## Dataset Information
 
-**Source**: Kickstarter Dataset
-**Total Records**: 364,000+
-**Key Columns**:
+* **Source**: Kickstarter Dataset
+* **Total Records**: 364,000+
+* **Key Columns**:
 
 **Crowdfunding_Projects** :
    * ID	
@@ -35,34 +35,34 @@ To build an interactive dashboard that allows users to filter data by state (suc
    * Location_id	
    * Category_id	
    * Created_at	
-    *Year	
-    *Month	
-    *Finanacial Month	
-    *Quarter	
-    *Financial_Quarter		
-    *Successful_at	
-    *Goal	
+    * Year	
+    * Month	
+    * Finanacial Month	
+    * Quarter	
+    * Financial_Quarter		
+    * Successful_at	
+* Goal	
    * Static_USD_Rate	
-    *Goal_Amount	
+    * Goal_Amount	
    * Goal_Range	
    * Pledged	
    * Pledged_Amount_USD	
    * Currency	
 * Backers_count	
-    *No_of_days_for_Completion	
-    *Funding_Percentage
+    * No_of_days_for_Completion	
+    * Funding_Percentage
 
 **Location** :
-    *Location_id	
+    * Location_id	
    * Display_Name	
    * Type	
-    *Location_Name	
+    * Location_Name	
    * Location_State	
    * Short_Name	
-    *Country
+    * Country
 
 **Creator**:
-    *Creator_id	
+    * Creator_id	
    * Creator_Name
 
 **Category**:
@@ -72,11 +72,11 @@ To build an interactive dashboard that allows users to filter data by state (suc
     *Position
 
 			
-##🔹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 To ensure accurate and reliable analysis, the dataset was thoroughly cleaned and transformed using the following steps:
 
-** Data Cleaning**
+**Data Cleaning :**
 
 * Removed duplicate records to maintain data integrity
 * Eliminated unnecessary columns that were not relevant for analysis
@@ -86,7 +86,7 @@ To ensure accurate and reliable analysis, the dataset was thoroughly cleaned and
 
 
 
-** Data Transformation & Feature Engineering**
+**Data Transformation & Feature Engineering :**
 
 Created several calculated columns to enhance analysis:
 
@@ -97,7 +97,7 @@ Created several calculated columns to enhance analysis:
 * Financial Quarter → Created using fiscal year logic
 
 
-** Calculated Metrics**
+**Calculated Metrics :**
 
 * Goal Amount (USD) → Converted using Goal and Static USD Rate
 * Pledged Amount (USD) → Standardized funding values
@@ -105,7 +105,7 @@ Created several calculated columns to enhance analysis:
 * Funding Percentage → (Pledged Amount USD / Goal Amount) × 100
 
 
-##🔹 Tools & Technologies Used
+## Tools & Technologies Used
 
 * Microsoft Excel
 * Power BI
@@ -114,7 +114,7 @@ Created several calculated columns to enhance analysis:
 
 
 
-##🔹 Data Modeling
+## Data Modeling
 
 * Connected multiple tables using relationships
 * Created a data model for better analysis
@@ -122,11 +122,11 @@ Created several calculated columns to enhance analysis:
 
 
 
-##🔹Key KPIs (Key Performance Indicators)
+## Key KPIs (Key Performance Indicators)
 
 The following KPIs were used to evaluate the performance of Kickstarter crowdfunding projects:
 
-** Overall KPIs**
+**Overall KPIs :**
 
 Total Number of Projects: 364.21K
 
@@ -138,7 +138,7 @@ Total Backers Count: 44.33 Million
 
 Average Number of Days for Completion: 22.45 Days
 
-** Analytical KPIs**
+**Analytical KPIs :**
 
 Projects by Category → Identifies most active and high-performing categories
 
@@ -160,7 +160,7 @@ Funding Percentage Analysis → Identifies which segments are closest to achievi
 The dashboard was designed using multiple tools (Excel, Power BI, and Tableau) with interactive features to enhance data exploration and user experience.
 
 
-** Excel Dashboard Features**
+**Excel Dashboard Features**
 
  * Used **Slicers** for dynamic filtering
  * Filters included:
@@ -176,7 +176,7 @@ The dashboard was designed using multiple tools (Excel, Power BI, and Tableau) w
 
 
 
-** Power BI Dashboard Features**
+**Power BI Dashboard Features**
 
 * Implemented **State Slicer** for filtering project status
 * Designed KPI cards for key metrics
@@ -184,7 +184,7 @@ The dashboard was designed using multiple tools (Excel, Power BI, and Tableau) w
 
 
 
-** Tableau Dashboard Features**
+**Tableau Dashboard Features**
 
 * Created calculated **metric**:
 
@@ -203,7 +203,7 @@ The dashboard was designed using multiple tools (Excel, Power BI, and Tableau) w
 
 
 
- ##🔹 Key Insights
+ ## Key Insights
 
 **Highest Projects by Location**: → *United States* has the highest number of projects
 
@@ -220,7 +220,7 @@ The dashboard was designed using multiple tools (Excel, Power BI, and Tableau) w
 **Projects Rate by Goal Range**: → Projects with goal less than $5000 have the highest success percentage
 
 
-##🔹 Challenges Faced
+## Challenges Faced
 
 * Handling large dataset
 * Cleaning inconsistent data
@@ -228,7 +228,7 @@ The dashboard was designed using multiple tools (Excel, Power BI, and Tableau) w
 
 
 
-##🔹 Learnings
+## Learnings
 
 * Improved data cleaning skills
 * Learned data modeling concepts
@@ -237,13 +237,13 @@ The dashboard was designed using multiple tools (Excel, Power BI, and Tableau) w
 
 
 
-##🔹 Conclusion
+## Conclusion
 
 This project provides meaningful insights into crowdfunding trends and helps understand what makes a project successful.
 
 
 
-##🔹 Author
+## Author
 
 **Mrunali Sapkal**
 
