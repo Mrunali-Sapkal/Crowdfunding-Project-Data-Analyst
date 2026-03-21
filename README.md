@@ -20,63 +20,63 @@ To build an interactive dashboard that allows users to filter data by state (suc
 
 
 
- # Dataset Information
+ ## Dataset Information
 
-Source: Kickstarter Dataset
-Total Records: 364,000+
-Key Columns:
+**Source**: Kickstarter Dataset
+**Total Records**: 364,000+
+**Key Columns**:
 
 **Crowdfunding_Projects** :
-    ID	
-    State	
-    Name	
-    Country	
-    Creator_id	
-    Location_id	
-    Category_id	
-    Created_at	
-    Year	
-    Month	
-    Finanacial Month	
-    Quarter	
-    Financial_Quarter		
-    Successful_at	
-    Goal	
-    Static_USD_Rate	
-    Goal_Amount	
-    Goal_Range	
-    Pledged	
-    Pledged_Amount_USD	
-    Currency	
-    Backers_count	
-    No_of_days_for_Completion	
-    Funding_Percentage
+   * ID	
+   *  State	
+   *  Name	
+   * Country	
+   * Creator_id	
+   * Location_id	
+   * Category_id	
+   * Created_at	
+    *Year	
+    *Month	
+    *Finanacial Month	
+    *Quarter	
+    *Financial_Quarter		
+    *Successful_at	
+    *Goal	
+   * Static_USD_Rate	
+    *Goal_Amount	
+   * Goal_Range	
+   * Pledged	
+   * Pledged_Amount_USD	
+   * Currency	
+* Backers_count	
+    *No_of_days_for_Completion	
+    *Funding_Percentage
 
-Location :
-    Location_id	
-    Display_Name	
-    Type	
-    Location_Name	
-    Location_State	
-    Short_Name	
-    Country
+**Location** :
+    *Location_id	
+   * Display_Name	
+   * Type	
+    *Location_Name	
+   * Location_State	
+   * Short_Name	
+    *Country
 
-Creator:
-    Creator_id	
-    Creator_Name
+**Creator**:
+    *Creator_id	
+   * Creator_Name
 
-Category:
-    Category_id	
-    Category_Name	
-    Parent_id	
-    Position
+**Category**:
+    *Category_id	
+    *Category_Name	
+    *Parent_id	
+    *Position
 
 			
-🔹 Data Cleaning & Preparation
+##🔹 Data Cleaning & Preparation
 
 To ensure accurate and reliable analysis, the dataset was thoroughly cleaned and transformed using the following steps:
 
-# Data Cleaning
+** Data Cleaning**
 
 * Removed duplicate records to maintain data integrity
 * Eliminated unnecessary columns that were not relevant for analysis
@@ -86,26 +86,26 @@ To ensure accurate and reliable analysis, the dataset was thoroughly cleaned and
 
 
 
-# Data Transformation & Feature Engineering
+** Data Transformation & Feature Engineering**
 
 Created several calculated columns to enhance analysis:
 
-Year → Extracted from `created_at`
-Month → Extracted from `created_at`
-Financial Month → Derived from `created_at` based on fiscal calendar
-Quarter → Derived from `created_at`
-Financial Quarter → Created using fiscal year logic
+* Year → Extracted from `created_at`
+* Month → Extracted from `created_at`
+* Financial Month → Derived from `created_at` based on fiscal calendar
+* Quarter → Derived from `created_at`
+* Financial Quarter → Created using fiscal year logic
 
 
-# Calculated Metrics
+** Calculated Metrics**
 
-Goal Amount (USD) → Converted using Goal and Static USD Rate
-Pledged Amount (USD) → Standardized funding values
-Number of Days for Completion → Calculated using `created_at` and `successful_at`
-Funding Percentage → (Pledged Amount USD / Goal Amount) × 100
+* Goal Amount (USD) → Converted using Goal and Static USD Rate
+* Pledged Amount (USD) → Standardized funding values
+* Number of Days for Completion → Calculated using `created_at` and `successful_at`
+* Funding Percentage → (Pledged Amount USD / Goal Amount) × 100
 
 
-🔹 Tools & Technologies Used
+##🔹 Tools & Technologies Used
 
 * Microsoft Excel
 * Power BI
@@ -114,19 +114,19 @@ Funding Percentage → (Pledged Amount USD / Goal Amount) × 100
 
 
 
-🔹 Data Modeling
+##🔹 Data Modeling
 
 * Connected multiple tables using relationships
 * Created a data model for better analysis
 * Used primary & foreign keys to join datasets
 
----
 
-🔹Key KPIs (Key Performance Indicators)
+
+##🔹Key KPIs (Key Performance Indicators)
 
 The following KPIs were used to evaluate the performance of Kickstarter crowdfunding projects:
 
-# Overall KPIs
+** Overall KPIs**
 
 Total Number of Projects: 364.21K
 
@@ -138,7 +138,7 @@ Total Backers Count: 44.33 Million
 
 Average Number of Days for Completion: 22.45 Days
 
-# Analytical KPIs
+** Analytical KPIs**
 
 Projects by Category → Identifies most active and high-performing categories
 
@@ -155,15 +155,15 @@ Amount Raised Analysis → Compares funding performance across different segment
 Funding Percentage Analysis → Identifies which segments are closest to achieving their goals
 
 
-🔹 Dashboard Features
+## Dashboard Features
 
 The dashboard was designed using multiple tools (Excel, Power BI, and Tableau) with interactive features to enhance data exploration and user experience.
 
 
-# Excel Dashboard Features
+** Excel Dashboard Features**
 
- Used Slicers for dynamic filtering
- Filters included:
+ * Used **Slicers** for dynamic filtering
+ * Filters included:
 
   * State (Successful, Failed, etc.)
   * Year
@@ -172,55 +172,55 @@ The dashboard was designed using multiple tools (Excel, Power BI, and Tableau) w
   * Quarter
   * Financial Quarter
     
-  Enabled quick and interactive data analysis
+* Enabled quick and interactive data analysis
 
 
 
-# Power BI Dashboard Features
+** Power BI Dashboard Features**
 
-Implemented **State Slicer** for filtering project status
-Designed KPI cards for key metrics
-Created interactive visualizations for better insights
+* Implemented **State Slicer** for filtering project status
+* Designed KPI cards for key metrics
+* Created interactive visualizations for better insights
 
 
 
-# Tableau Dashboard Features
+** Tableau Dashboard Features**
 
- Created calculated metrics:
+* Created calculated **metric**:
 
   * Amount Raised
   * Backers Count
   * Funding Percentage
 
- Implemented **Time Parameter** to switch between:
+* Implemented **Time Parameter** to switch between:
 
   * Month
   * Quarter
   * Financial Month
   * Financial Quarter
 
-  Added State Filter for dynamic analysis
+* Added **State Filter** for dynamic analysis
 
 
 
- 🔹 Key Insights
+ ##🔹 Key Insights
 
-Highest Projects by Location: → *United States* has the highest number of projects
+**Highest Projects by Location**: → *United States* has the highest number of projects
 
-Top Category: → *Product Design* has the maximum number of projects
+**Top Category**: → *Product Design* has the maximum number of projects
 
-Peak Month for Project Creation: → July recorded the highest projects (35,905)
+**Peak Month for Project Creation**: → July recorded the highest projects (35,905)
 
-Top Project by Backers: → *Exploding Kittens* received the highest number of backers
+**Top Project by Backers**: → *Exploding Kittens* received the highest number of backers
 
-Top Project by Amount Raised: → *Pebble Time – Awesome Smartwatch, No Compromises* raised the highest funds
+**Top Project by Amount Raised**: → *Pebble Time – Awesome Smartwatch, No Compromises* raised the highest funds
 
-Top Project by Funding Percentage: → *VULFPECK – The Beautiful Game* achieved the highest funding percentage
+**Top Project by Funding Percentage**: → *VULFPECK – The Beautiful Game* achieved the highest funding percentage
 
-Projects Rate by Goal Range: → Projects with goal less than $5000 have the highest success percentage
+**Projects Rate by Goal Range**: → Projects with goal less than $5000 have the highest success percentage
 
 
-🔹 Challenges Faced
+##🔹 Challenges Faced
 
 * Handling large dataset
 * Cleaning inconsistent data
@@ -228,7 +228,7 @@ Projects Rate by Goal Range: → Projects with goal less than $5000 have the hig
 
 
 
-🔹 Learnings
+##🔹 Learnings
 
 * Improved data cleaning skills
 * Learned data modeling concepts
@@ -237,13 +237,13 @@ Projects Rate by Goal Range: → Projects with goal less than $5000 have the hig
 
 
 
-🔹 Conclusion
+##🔹 Conclusion
 
 This project provides meaningful insights into crowdfunding trends and helps understand what makes a project successful.
 
 
 
-🔹 Author
+##🔹 Author
 
 **Mrunali Sapkal**
 
